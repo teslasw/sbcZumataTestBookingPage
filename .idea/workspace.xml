@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c39a353-d2bf-4488-9bb6-a73efdc9e71e" name="Default Changelist" comment="" />
+    <list default="true" id="5c39a353-d2bf-4488-9bb6-a73efdc9e71e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datepickertest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +18,38 @@
       <executable />
     </execution>
   </component>
+  <component name="DockManager">
+    <window id="3">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/datepickertest.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="306">
+                    <caret line="18" column="19" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="18" selection-end-column="19" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="255" column="50" selection-start-line="255" selection-start-column="50" selection-end-line="255" selection-end-column="50" />
+            <state relative-caret-position="515">
+              <caret line="265" column="31" lean-forward="true" selection-start-line="265" selection-start-column="31" selection-end-line="265" selection-end-column="31" />
               <folding>
                 <element signature="n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#7942#9473#0#HTML" />
+                <element signature="e#7866#7912#0#HTML" />
+                <element signature="e#7989#8166#0#HTML" />
+                <element signature="e#8247#8427#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -67,7 +94,11 @@
       <find>SBC</find>
       <find>svg</find>
       <find>datepicker</find>
+      <find>jquery</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,16 +109,18 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test-list.json" />
         <option value="$PROJECT_DIR$/bootstrap-autocomplete.js" />
+        <option value="$PROJECT_DIR$/datepickertest.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="1" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-1879" />
+    <option name="y" value="331" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -103,7 +136,48 @@
             <path>
               <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-ui-1.12.1.custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="t-datepicker-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="t-datepicker-master" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="t-datepicker-master" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="t-datepicker-master" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="t-datepicker-master" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zumataDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zumataDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="t-datepicker-master" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,6 +188,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -122,11 +197,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Tesla\zumataDemo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Tesla\zumataDemo\testdata" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Tesla\zumataDemo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,15 +229,15 @@
       <workItem from="1563237228411" duration="7814000" />
       <workItem from="1563316376938" duration="12183000" />
       <workItem from="1563408738501" duration="654000" />
-      <workItem from="1563838455229" duration="8872000" />
+      <workItem from="1563838455229" duration="16312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29523000" />
+    <option name="totallyTimeSpent" value="36963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="1" width="1936" height="1096" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
@@ -221,6 +296,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zE410A1418/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-autocomplete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -231,13 +314,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datepickertest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="255" column="50" selection-start-line="255" selection-start-column="50" selection-end-line="255" selection-end-column="50" />
+        <state relative-caret-position="515">
+          <caret line="265" column="31" lean-forward="true" selection-start-line="265" selection-start-column="31" selection-end-line="265" selection-end-column="31" />
           <folding>
             <element signature="n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="e#7942#9473#0#HTML" />
+            <element signature="e#7866#7912#0#HTML" />
+            <element signature="e#7989#8166#0#HTML" />
+            <element signature="e#8247#8427#0#HTML" />
           </folding>
         </state>
       </provider>

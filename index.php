@@ -10,7 +10,8 @@
     <!-- Bootstrap core CSS, jQuery, Popper, Boostrap Core JS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-                                                                                                                                                                                                                                                                                        <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -25,6 +26,10 @@
     <!-- bootstrap autocomplete -->
     <script src="bootstrap-autocomplete.js"></script>
 <!--    <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.2.1/dist/latest/bootstrap-autocomplete.min.js"></script>-->
+
+    <link rel="stylesheet" href="t-datepicker-master/public/theme/css/t-datepicker.min.css">
+    <link rel="stylesheet" href="t-datepicker-master/public/theme/css/themes/t-datepicker-blue.css">
+    <script src="t-datepicker-master/public/theme/js/t-datepicker.min.js"></script>
 
     <style>
         .bd-placeholder-img {
@@ -79,24 +84,28 @@
 
 
             </div>
-            <div class="form-group col-md-2">
-                <label for="fromDate" class="col-form-label">Check In Date</label>
+            <div class="form-group col-md-4">
+                <label for="dates" class="col-form-label">Check In and Out.</label>
                 <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="far fa-calendar-alt "></i></span>
-                    </div>
-                    <input id="fromDate" type="text" class="form-control" placeholder="Check In Date" data-provide="datepicker" data-date-format="yyyy-mm-dd">
+<!--                    <input id="fromDate" type="text" class="form-control" placeholder="Check In Date" data-provide="datepicker" data-date-format="yyyy-mm-dd">-->
+                        <div id="dates" class="t-datepicker">
+                            <div class="t-check-in"></div>
+                            <div class="t-check-out"></div>
+                        </div>
                 </div>
             </div>
-            <div class="form-group col-md-2">
-                <label for="toDate" class="col-form-label">Check Out Date</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="far fa-calendar-alt "></i></span>
-                    </div>
-                    <input id="toDate" type="text" class="form-control" placeholder="Check Out Date" data-provide="datepicker" data-date-format="yyyy-mm-dd">
-                </div>
-            </div>
+<!--            <div class="form-group col-md-2">-->
+<!--                <label for="toDate" class="col-form-label">Check Out Date</label>-->
+<!--                <div class="input-group">-->
+<!--                    <div class="input-group-prepend">-->
+<!--                        <span class="input-group-text"><i class="far fa-calendar-alt "></i></span>-->
+<!--                    </div>-->
+<!--                    <input id="toDate" type="text" class="form-control" placeholder="Check Out Date" data-provide="datepicker" data-date-format="yyyy-mm-dd">-->
+<!--                    <div class="t-datepicker">-->
+<!--                        -->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
             <div class="form-group col-md-1">
                 <label for="adults" class="col-form-label">Adults</label>
                 <div class="input-group">
@@ -242,8 +251,8 @@
             let params = {
                 locationQuery : $('#destination').val(),
                 regionId : $('#zumataRegionId').val(),
-                checkInDate : $('#fromDate').val() ,
-                checkOutDate : $('#toDate').val(),
+                checkInDate : $('[name="t-start"]').val() ,
+                checkOutDate : $('[name="t-end"]').val(),
                 roomCount : $('#rooms').val(),
                 adultCount : $('#adults').val(),
                 children : $('#kids').val(),
@@ -256,6 +265,10 @@
             window.location.assign(zumataFullUrl);
             e.preventDefault();
         })
+
+        $('.t-datepicker').tDatePicker({
+            formatDate: 'yyyy-mm-dd'
+        });
     });
 </script>
 </body>
